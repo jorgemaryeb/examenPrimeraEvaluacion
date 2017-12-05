@@ -20,7 +20,7 @@ public class Numero {
 		if (numero % 3 == 0 && numero % 5 == 0)
 			System.out.printf("El número %d es múltiplo de tres y cinco a la vez %n",numero);
 		else
-			System.out.printf("El número %d no es mútliplp de tres y cinco a la vez",numero);
+			System.out.printf("El número %d no es mútliplo de tres y cinco a la vez %n",numero);
 		
 		String digitos = numero + "";
 		int digitosTotales = digitos.length();
